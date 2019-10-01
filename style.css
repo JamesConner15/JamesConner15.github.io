@@ -5,7 +5,7 @@
       overflow: hidden;
       padding: 0;
     }
-    
+
     .navbar a, .dropdown div{
       text-decoration: none;
       color: white;
@@ -40,7 +40,11 @@
 .active{
     background-color:green;
 }
+.imagesize{
+    width:200px;
+    height:200px;
 
+}
 
 
 
