@@ -41,11 +41,17 @@
     background-color:green;
 }
 .imagesize{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:220px;
 
 }
 
+.imagesize2{
+    width:250px;
+    height:240px;
+transform: rotate(90deg);
+
+}
 
 
 
