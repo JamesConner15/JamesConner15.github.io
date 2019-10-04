@@ -18,7 +18,7 @@
     }
 
     .navbar li:hover{
-      background-color: pink;
+      background-color: rgb(185, 101, 22);
     }
 
     .dropdown-content{
