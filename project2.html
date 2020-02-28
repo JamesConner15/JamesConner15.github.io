@@ -2,7 +2,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Home</title>
+  <title>Home</title><style>
+    .navbar{
+      background-color:black;  
+    overflow:hidden;
+    }
+    
+   .navbar a{
+    color:White;
+    font-size:24px;
+    text-decoration:none;
+    padding:16px;
+    float:left;
+    }
+    
+    .morelinks{
+    color:white;
+    font-size:24px;
+    text-decoration:none;
+    padding:16px;
+ 
+    }
+    
+    .navbar a:hover,.morelinks:hover{
+        background-color:green;
+    }
+    .dropdown:hover .dropdown-content{
+        display:block;
+    }
+    
+    .dropdown-content{
+    position:absolute;
+    z-index:1;
+    display:none;
+    background-color:blue;
+    }
+    .dropdown{
+        background-color:black;
+    color:white;
+        float:left;
+        text-decoration:none;
+        font-size:24px;
+    }
+    .dropdown-content a{
+        float:none;
+        display:block;
+    }
+
+</style>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -17,7 +64,7 @@
         <div>Projects</div>
         <ul class="dropdown-content">
           <li><a href="textadventure.html">Text Adventure</a></li>
-          <li><a href="#"></a>Hang Man Game</li>
+          <li><a href="project2.html"></a>Hang Man Game</li>
           <li><a href="#">Project 3</a></li>
         </ul>
       </li>
