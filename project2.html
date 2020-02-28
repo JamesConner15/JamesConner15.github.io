@@ -48,34 +48,114 @@
         float:none;
         display:block;
     }
+  #container{
+     position: absolute;
+     top: 75px;
+     bottom: 0px;
+     left:0px;
+     right:0px;
+     background-color:green;
+  }
+  #leftpane{
+      width: 56%;
+      height: 100%;
+      float: left;
+      display: flex;
+      align-items: center;
+    justify-content:center;
+    background-color: red;
+  }
+  #rightpane{
+      width: 44%;
+      height: 100%;
+      float: left;
+      background-color: blue;
+  }
+  #storytext{
+      position:absolute;
+      bottom: 50px;
+      top: 0px;
+      left: 56%;
+      right: 0px;
+      background-color: pink;
+      padding: 8px;
+  }
+#choices{
+      position:absolute;
+      bottom: 0px;
+      height: 50px;
+      left: 56%;
+      right: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: yellow;
+}
 
+  #b1, #b2, #b3{
+      display: inline-block;
+      background-color: orange;
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 8px;
+  }
+  #ptext1{
+      color:blue;
+      font-size: 23px;
+  }
+#ptext2{
+    color:green;
+    font-size:23px;
+}
+#storyimg{
+    max-height:94%;
+    max-width: 94%;
+    width:94%;
+}
 </style>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
   </head>
   <body>
-    <ul class="navbar">
+  <ul class="navbar">
       <li><a href="index.html">Home</a></li>
-      <li><a href="resume.html">Resume</a></li>
-     <li><a clas="active" href="aboutme.html">About Me</a></li>
-      <li><a clas="active" href="contactme.html">Contact Me</a></li>
+      <li class="active"><a href="resume.html">Resume</a></li>
+       <li><a clas="active" href="contactme.html">Contact Me</a></li>
       <li class = "dropdown">
         <div>Projects</div>
         <ul class="dropdown-content">
-          <li><a href="textadventure.html">Text Adventure</a></li>
-          <li><a href="project2.html"></a>Hang Man Game</li>
-          <li><a href="#">Project 3</a></li>
+          <li><a href="#">Text Adventure</a></li>
+          <li><a href="project2.html">Hang Man Game</a></li>
+          <li><a href="project3.html">project3</a></li>
         </ul>
       </li>
 
     </ul>
-    <h1></h1>
-    <h3></h3>
-    <p></p>
-    <h3></h3>
-    <p></P>
-<iframe height="400px" width="100%" src="https://repl.it/@BradynHargate/Hangman-Group-Project?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<h1>Resume</h1>
+    <div id='container'>
+         <div id='leftpane'>
+         <img id='storyimg' src='images/'>
+         </div>
+
+         <div id='rightpane'>
+         <div id='storytext'>
+            <p id ='ptext1'>Happy birthday
+            </p>                <p id='ptext2'>yes
+                </p>
+                <p id='ptext3'>
+                </p>
+            </div>
+             <div id='choices'>
+                 <p>Click <a href="websites.html">here</a> to play</p>
+              
+            </div>
+        </div>
+</div>
 </body>
 
 
