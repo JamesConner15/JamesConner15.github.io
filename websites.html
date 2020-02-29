@@ -1,8 +1,30 @@
-  
+
+
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Home</title><style>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+  <body>
+     <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+     <li><a clas="active" href="aboutme.html">About Me</a></li>
+      <li><a clas="active" href="contactme.html">Contact Me</a></li>
+      <li class = "dropdown">
+        <div>Projects</div>
+        <ul class="dropdown-content">
+          <li><a href="textadventure.html">Text Adventure</a></li>
+          <li><a href="project2.html">Hang Man Game</a></li>
+          <li><a href="project3.html">Project 3</a></li>
+        </ul>
+        </ul>
+      </li>
+</body>
+     <style>
     .navbar{
       background-color:black;  
     overflow:hidden;
@@ -49,19 +71,4 @@
         display:block;
     }
      </style>
-  <head>
-    <ul class="navbar">
-      <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="resume.html">Resume</a></li>
-       <li><a clas="active" href="contactme.html">Contact Me</a></li>
-      <li class = "dropdown">
-        <div>Projects</div>
-        <ul class="dropdown-content">
-          <li><a href="#">Text Adventure</a></li>
-          <li><a href="project2.html">Hang Man Game</a></li>
-          <li><a href="project3.html">project3</a></li>
-        </ul>
-      </li>
-
-    </ul>
 <iframe height="400px" width="100%" src="https://repl.it/@BradynHargate/Hangman-Group-Project?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
